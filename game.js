@@ -67,8 +67,8 @@ class Game{
                      //text to display player score.
                      fill(255)
                      textSize(20)
-                     text(player.name + ":"  +allPlayers.player1.score,50,50)
-                     text(player.name + ":" +allPlayers.player2.score,500,50)
+                     text("Player1 :"  +allPlayers.player1.score,50,50)
+                     text("Player2 :" +allPlayers.player2.score,500,50)
                  
                  }
                 
